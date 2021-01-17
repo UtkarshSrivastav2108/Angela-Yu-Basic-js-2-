@@ -27,4 +27,13 @@ function isLeap(year){
       return "Not a Leap Year";
     }
     
-    }
+    // }Includes....
+    
+
+    var guestList=["Utkarsh","Shreshtha","Kundan","Ankit","Mohan","Paras","Hitesh"];
+var guestName = prompt("What is Your Name");
+if(guestList.includes(guestName)){
+   alert("Welcome to the Party");
+}else {
+   alert("Better Luck Next Time");
+}
